@@ -38,7 +38,6 @@ let tramitesSchema = new Schema({
     },
     idUser: {
         type: String,
-        required: [true, "Este tramite debe estar relacionado con un usuario"],
     },
 });
 
